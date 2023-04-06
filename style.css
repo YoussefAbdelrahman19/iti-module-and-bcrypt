@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.message-container {
+  margin-bottom: 10px;
+}
+
+.message-container:last-child {
+  margin-bottom: 0px;
+}
+
+.message-container.user .message {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.message-container.bot .message {
+  background-color: #f1f1f1;
+}
+
+.message {
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 70%;
+  word-wrap: break-word;
+}
+
+.input-container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.input-container input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.input-container button[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
